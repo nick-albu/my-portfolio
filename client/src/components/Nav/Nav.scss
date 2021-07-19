@@ -1,1 +1,31 @@
 @use '../../partials/variables' as *;
+
+.nav {
+    background-color: $Teal;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: $Pink;
+        width: 5rem;
+        height: 5rem;
+    }
+    &__logo {
+        width: 70%
+    }
+    &__header {
+        margin: 0;
+        font-size: 1.45rem;
+        padding: 0 1rem;
+        color: $Yellow;
+        &--alternate {
+            color: $LightGreen;
+        }
+    }
+}

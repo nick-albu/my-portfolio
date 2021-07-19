@@ -1,0 +1,15 @@
+@use '../../partials/variables' as *;
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: $Egg;
+    padding: 1rem 0;
+    &__image {
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}

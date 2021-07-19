@@ -1,12 +1,13 @@
 import './Hero.scss';
 import { Component } from 'react';
+import HeroImage from '../../assets/LightMode.svg';
 
 class Hero extends Component {
 
     render () {
         return (
-            <section>
-                <h1>Hero Section</h1>
+            <section className='hero'>
+                <img className='hero__image' src={HeroImage} alt='hero'/>
             </section>
         )
     }
