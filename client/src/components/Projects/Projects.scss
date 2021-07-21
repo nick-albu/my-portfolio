@@ -9,15 +9,36 @@
     padding: 1rem;
     &__header {
         margin: 0;
-        padding: 1rem;
+        padding: 1rem 1rem 3rem 1rem;
         color: $Yellow;
         font-size: 1.7rem;
     }
-    &__body {
+    &__itemContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__itemLogo {
+        height: 8rem;
+        margin-right: 1rem;
+    }
+    &__itemBody {
         text-align: right;
         color: $Yellow;
         font-size: 1.35rem;
         padding: 1rem;
         margin: 0;
+    }
+    &__imageContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    &__itemImage {
+        width: 50%;
+        padding: 1rem;
+        object-fit: cover;
+        border-radius: 25px;
     }
 }
