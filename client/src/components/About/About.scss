@@ -1,0 +1,22 @@
+@use '../../partials/variables' as *;
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: $Egg;
+    padding: 1rem;
+    &__header {
+        margin: 0;
+        padding: 1rem;
+        color: $Teal;
+        font-size: 1.7rem;
+    }
+    &__body {
+        color: $Teal;
+        font-size: 1.35rem;
+        padding: 1rem;
+        margin: 0;
+    }
+}

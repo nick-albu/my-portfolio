@@ -1,0 +1,23 @@
+@use '../../partials/variables' as *;
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: $Teal;
+    padding: 1rem;
+    &__header {
+        margin: 0;
+        padding: 1rem;
+        color: $Yellow;
+        font-size: 1.7rem;
+    }
+    &__body {
+        text-align: right;
+        color: $Yellow;
+        font-size: 1.35rem;
+        padding: 1rem;
+        margin: 0;
+    }
+}
