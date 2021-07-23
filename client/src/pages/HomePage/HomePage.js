@@ -5,6 +5,7 @@ import Hero from '../../components/Hero/Hero'
 import About from '../../components/About/About'
 import Projects from '../../components/Projects/Projects'
 import Ticker from '../../components/Ticker/Ticker'
+import Contact from '../../components/Contact/Contact'
 
 class HomePage extends Component {
 
@@ -16,6 +17,7 @@ class HomePage extends Component {
                 <Ticker />
                 <About />
                 <Projects />
+                <Contact />
             </section>
             
         )
