@@ -6,26 +6,29 @@
     justify-content: center;
     align-items: flex-end;
     background-color: $Teal;
-    padding: 1rem;
     &__header {
         margin: 0;
-        padding: 1rem 1rem 3rem 1rem;
-        color: $Yellow;
+        padding: 1rem 1rem 2rem 1rem;
+        color: $Egg;
         font-size: 1.7rem;
     }
     &__itemContainer {
+        margin: 1rem;
+        padding: 0 1rem;
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        background-color: rgba(0, 0, 0, 0.404);
     }
-    &__itemLogo {
-        height: 8rem;
-        margin-right: 1rem;
+    &__itemHeader {
+        font-size: 1.35rem;
+        color: $Egg;
     }
     &__itemBody {
         text-align: right;
-        color: $Yellow;
-        font-size: 1.35rem;
+        color: $Egg;
+        font-size: 1rem;
         padding: 1rem;
         margin: 0;
     }
@@ -33,12 +36,12 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-
     }
     &__itemImage {
         width: 50%;
-        padding: 1rem;
-        object-fit: cover;
+        max-height: 12rem;
+        padding: 0.5rem;
+        object-fit: scale-down;
         border-radius: 25px;
     }
 }
