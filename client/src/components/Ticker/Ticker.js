@@ -8,10 +8,10 @@ class Ticker extends Component {
             <section className='ticker__section'>
                 <div class="ticker__wrap">
                     <div class="ticker">
-                        <div class="ticker__item">Local Web Developer Seeking Work 👀</div>
-                        <div class="ticker__item">⛈ 95% Chance Of Job Offers ⛈</div>
-                        <div class="ticker__item">Gemini Stocks 💹 At All Time High</div>
-                        <div class="ticker__item">Web Developer Saves Kitten 🐈 From Burning Car 🚗🔥, Hero</div>
+                        <div class="ticker__item">🚨 Actively Looking For Work </div>
+                        <div class="ticker__item">Recent BrainStation 🧠 Graduate</div>
+                        <div class="ticker__item">Working on my own projects 💻 github.come/nick-albu</div>
+                        <div class="ticker__item">Constantly learning 🤓</div>
                     </div>
                 </div>
             </section>

@@ -18,15 +18,16 @@
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         background-color: rgba(0, 0, 0, 0.404);
     }
     &__itemHeader {
         font-size: 1.35rem;
         color: $Egg;
+        padding: 0;
     }
     &__itemBody {
-        text-align: right;
+        text-align: center;
         color: $Egg;
         font-size: 1rem;
         padding: 1rem;
