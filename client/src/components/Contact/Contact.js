@@ -8,10 +8,10 @@ class Contact extends Component {
 
     render () {
         return (
-            <section>
-                <a href=''><img src={LinkedIn} alt='linkedin'/></a>
-                <a href=''><img src={GitHub} alt='github'/></a>
-                <a href=''><img src={LinkedIn} alt='email'/></a>
+            <section className='contact'>
+                <a href=''><img className='contact__icon' src={LinkedIn} alt='linkedin'/></a>
+                <a href=''><img className='contact__emailIcon' src={Email} alt='email'/></a>
+                <a href=''><img className='contact__icon' src={GitHub} alt='github'/></a>
             </section>
             
         )
