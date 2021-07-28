@@ -9,9 +9,9 @@ class Contact extends Component {
     render () {
         return (
             <section className='contact'>
-                <a href=''><img className='contact__icon' src={LinkedIn} alt='linkedin'/></a>
+                <a href='https://www.linkedin.com/in/nicolasalbu'><img className='contact__icon' src={LinkedIn} alt='linkedin'/></a>
                 <a href=''><img className='contact__emailIcon' src={Email} alt='email'/></a>
-                <a href=''><img className='contact__icon' src={GitHub} alt='github'/></a>
+                <a href='https://github.com/nick-albu'><img className='contact__icon' src={GitHub} alt='github'/></a>
             </section>
             
         )
