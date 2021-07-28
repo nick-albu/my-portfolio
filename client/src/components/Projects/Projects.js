@@ -1,6 +1,5 @@
 import './Projects.scss';
 import { Component } from 'react';
-import GeminiLogo from '../../assets/GeminiLogo.svg';
 import GeminiLanding from '../../assets/GeminiLandingPage.PNG';
 import GeminiCreate from '../../assets/GeminiCreatePage.PNG';
 import GeminiPrevious from '../../assets/GeminiPreviousWorkouts.PNG';
@@ -23,6 +22,12 @@ class Projects extends Component {
                     </div>
                     <p className='projects__itemBody'>Gemini is a user friendly fitness tracking app. 
                     Gemini uses JavaScript, React.js, Scss, Express.js and MongoDB. </p>
+                </div>
+                <div className='projects__itemContainer'>
+                    <h2 className='projects__itemHeader'>Coming Soon...</h2>
+                    <div className='projects__imageContainer'>
+                    </div>
+                    <p className='projects__itemBody'>More about my next project to follow.</p>
                 </div>
             </section>
         )
