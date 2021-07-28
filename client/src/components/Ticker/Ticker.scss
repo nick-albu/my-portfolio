@@ -43,6 +43,10 @@ $duration: 30s;
     animation-name: ticker;
     -webkit-animation-duration: $duration;
     animation-duration: $duration;
+    &__section {
+        width: 100%;
+        overflow: hidden;
+    }
     &__item {
         display: inline-block;
         padding: 0 2rem;

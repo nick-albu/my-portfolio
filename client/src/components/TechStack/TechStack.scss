@@ -1,0 +1,21 @@
+@use '../../partials/variables' as *;
+
+.techStack {
+    background-color: $Egg;
+    &__header {
+        margin: 0;
+        padding: 1rem;
+        color: $Teal;
+        font-size: 1.7rem;
+    }
+    &__list {
+        margin: 0;
+        padding: 1rem;
+        list-style: none;
+    }
+    &__item {
+        padding: 1rem 0;
+        color: $Teal;
+        font-size: 1.1rem;
+    }
+}

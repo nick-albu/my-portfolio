@@ -6,6 +6,7 @@ import About from '../../components/About/About'
 import Projects from '../../components/Projects/Projects'
 import Ticker from '../../components/Ticker/Ticker'
 import Contact from '../../components/Contact/Contact'
+import TechStack from '../../components/TechStack/TechStack'
 
 class HomePage extends Component {
 
@@ -17,9 +18,9 @@ class HomePage extends Component {
                 <Ticker />
                 <About />
                 <Projects />
+                <TechStack />
                 <Contact />
             </section>
-            
         )
     }
 }
