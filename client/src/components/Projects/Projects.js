@@ -10,9 +10,11 @@ class Projects extends Component {
     render () {
         return (
             <section className='projects'>
-                <h1 className='projects__header'>My Projects</h1>
+                <div className='projects__headerContainer'>
+                    <h1 className='projects__header'>My Projects</h1>
+                </div>
                 <div className='projects__itemContainer'>
-                    <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
+                        <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
                     <div className='projects__imageContainer'>
                         <img className='projects__itemImage' src={GeminiLanding} alt='gemini-landing'/>
                         <img className='projects__itemImage' src={GeminiCreate} alt='gemini-landing'/>
