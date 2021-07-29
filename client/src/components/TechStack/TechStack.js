@@ -12,15 +12,15 @@ class TechStack extends Component {
         return (
             <section className='techStack'>
                 <div className='techStack__headerContainer'>
-                    <h1 className='techStack__header'>Languages I've Learned</h1>
+                    <h1 className='techStack__header'>Language Proficiencies</h1>
                 </div>
                 <ul className='techStack__list'>
-                    <li className='techStack__item'>JavaScript<img className='techStack__icon' src={JavaScript}/></li>
-                    <li className='techStack__item'>React.js<img className='techStack__icon' src={Reactjs}/></li>
-                    <li className='techStack__item'>Express.js<img className='techStack__iconLarge' src={Expressjs}/></li>
-                    <li className='techStack__item'>MongoDB<img className='techStack__icon' src={Mongo}/></li>
-                    <li className='techStack__item'>Sass<img className='techStack__icon' src={Sass}/></li>
-                    <li className='techStack__item'>HTML 5<img className='techStack__icon' src={HTML5}/></li>
+                    <li className='techStack__item'><img className='techStack__icon' src={JavaScript}/></li>
+                    <li className='techStack__item'><img className='techStack__icon' src={Reactjs}/></li>
+                    <li className='techStack__item'><img className='techStack__iconLarge' src={Expressjs}/></li>
+                    <li className='techStack__item'><img className='techStack__icon' src={Mongo}/></li>
+                    <li className='techStack__item'><img className='techStack__icon' src={Sass}/></li>
+                    <li className='techStack__item'><img className='techStack__icon' src={HTML5}/></li>
                 </ul>
             </section>
         )
