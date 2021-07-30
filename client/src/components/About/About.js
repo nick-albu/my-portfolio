@@ -1,5 +1,6 @@
 import './About.scss';
 import { Component } from 'react';
+import AboutIcon from '../../assets/SectionIcons/AboutMe.svg'
 
 class About extends Component {
 
@@ -8,7 +9,7 @@ class About extends Component {
             <section className='about'>
                 <div className='about__headerContainer'>
                     <div className='about__headerBackLeft'>
-                        <h1 className='about__header'>About Me</h1>
+                        <h1 className='about__header'>About Me<img className='about__headerIcon' src={AboutIcon}/></h1>
                     </div>
                     <div className='about__headerBackRight'>
                         <div className='about__headerFrontRight'>

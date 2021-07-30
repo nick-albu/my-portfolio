@@ -8,7 +8,7 @@
         display: flex;
     }
     &__headerBackLeft {
-        width: 15rem;
+        width: 13rem;
         background-color: $Teal;
     }
     &__headerBackRight {
@@ -30,6 +30,12 @@
         background-color: $Egg;
         font-size: 1.7rem;
         border-top-right-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__headerIcon {
+        height: 2rem;
+        padding-left: 1rem;
     }
     &__bodyContainer {
         display: flex;
