@@ -11,25 +11,33 @@ class Projects extends Component {
         return (
             <section className='projects'>
                 <div className='projects__headerContainer'>
-                    <h1 className='projects__header'>My Projects</h1>
+                        <div className='projects__headerBackLeft'>
+                            <div className='projects__headerFrontLeft'>
+                            </div>
+                        </div>
+                        <div className='projects__headerBackRight'>
+                            <h1 className='projects__header'>My Projects</h1>
+                        </div>
                 </div>
-                <div className='projects__itemContainer'>
-                        <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
-                    <div className='projects__imageContainer'>
-                        <img className='projects__itemImage' src={GeminiLanding} alt='gemini-landing'/>
-                        <img className='projects__itemImage' src={GeminiCreate} alt='gemini-landing'/>
-                        <img className='projects__itemImage' src={GeminiWorkout} alt='gemini-landing'/>
-                        <img className='projects__itemImage' src={GeminiPrevious} alt='gemini-landing'/>
-                        
+                <div className='projects__bodyContainer'>
+                    <div className='projects__itemContainer'>
+                            <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
+                        <div className='projects__imageContainer'>
+                            <img className='projects__itemImage' src={GeminiLanding} alt='gemini-landing'/>
+                            <img className='projects__itemImage' src={GeminiCreate} alt='gemini-landing'/>
+                            <img className='projects__itemImage' src={GeminiWorkout} alt='gemini-landing'/>
+                            <img className='projects__itemImage' src={GeminiPrevious} alt='gemini-landing'/>
+                            
+                        </div>
+                        <p className='projects__itemBody'>Gemini is a user friendly fitness tracking app. 
+                        Gemini uses JavaScript, React.js, Scss, Express.js and MongoDB. </p>
                     </div>
-                    <p className='projects__itemBody'>Gemini is a user friendly fitness tracking app. 
-                    Gemini uses JavaScript, React.js, Scss, Express.js and MongoDB. </p>
-                </div>
-                <div className='projects__itemContainer'>
-                    <h2 className='projects__itemHeader'>Coming Soon...</h2>
-                    <div className='projects__imageContainer'>
+                    <div className='projects__itemContainer'>
+                        <h2 className='projects__itemHeader'>Coming Soon...</h2>
+                        <div className='projects__imageContainer'>
+                        </div>
+                        <p className='projects__itemBody'>More about my next project to follow.</p>
                     </div>
-                    <p className='projects__itemBody'>More about my next project to follow.</p>
                 </div>
             </section>
         )

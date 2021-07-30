@@ -6,22 +6,44 @@
     flex-direction: column;
     align-items: center;
     &__headerContainer {
-        background-color: $Teal;
+        width: 100%;
+        display: flex;
+    }
+    &__headerLeftBack {
+        width: 1rem;
+        background-color: $Egg;
+    }
+    &__headerLeftFront {
         width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
-        border: none;
+        background-color: $Teal;
+        border-bottom-right-radius: 10px;
+    }
+    &__headerRightBack {
+        width: 1rem;
+        flex-grow: 1;
+        background-color: $Egg;
+    }
+    &__headerRightFront {
+        width: 100%;
+        height: 100%;
+        background-color: $Teal;
+        border-bottom-left-radius: 10px;
+    }
+    &__headerMain {
+        background-color: $Teal;
+        height: 100%;
+        width: 20.5rem;
     }
     &__header {
         margin: 0;
         padding: 1rem;
         color: $Teal;
-        width: 21rem;
+        width: 100%;
         height: 100%;
+        flex-grow: 1;
         background-color: $Egg;
         font-size: 1.7rem;
-        border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     &__list {
