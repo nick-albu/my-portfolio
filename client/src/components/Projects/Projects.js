@@ -21,7 +21,7 @@ class Projects extends Component {
                 </div>
                 <div className='projects__bodyContainer'>
                     <div className='projects__itemContainer'>
-                            <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
+                        <h2 className='projects__itemHeader'>Gemini Fitness App</h2>
                         <div className='projects__imageContainer'>
                             <img className='projects__itemImage' src={GeminiLanding} alt='gemini-landing'/>
                             <img className='projects__itemImage' src={GeminiCreate} alt='gemini-landing'/>
@@ -31,6 +31,8 @@ class Projects extends Component {
                         </div>
                         <p className='projects__itemBody'>Gemini is a user friendly fitness tracking app. 
                         Gemini uses JavaScript, React.js, Scss, Express.js and MongoDB. </p>
+                        <a target='_blank' href='https://github.com/nick-albu/Gemini' className='projects__itemLink'>
+                            Gemini github repository</a>
                     </div>
                     <div className='projects__itemContainer'>
                         <h2 className='projects__itemHeader'>Coming Soon...</h2>
