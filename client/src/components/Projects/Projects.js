@@ -4,6 +4,7 @@ import GeminiLanding from '../../assets/GeminiLandingPage.PNG';
 import GeminiCreate from '../../assets/GeminiCreatePage.PNG';
 import GeminiPrevious from '../../assets/GeminiPreviousWorkouts.PNG';
 import GeminiWorkout from '../../assets/GeminiWorkoutPage.PNG';
+import ProjectsIcon from '../../assets/SectionIcons/Projects.svg'
 
 class Projects extends Component {
 
@@ -16,7 +17,7 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className='projects__headerBackRight'>
-                            <h1 className='projects__header'>My Projects</h1>
+                            <h1 className='projects__header'><img className='projects__headerIcon' src={ProjectsIcon}/>My Projects</h1>
                         </div>
                 </div>
                 <div className='projects__bodyContainer'>

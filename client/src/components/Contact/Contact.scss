@@ -21,7 +21,7 @@
     }
     &__headerBackRight{
         height: 100%;
-        width: 11.5rem;
+        width: 18rem;
         background-color: $Egg;
     }
     &__header {
@@ -33,6 +33,12 @@
         border-top-left-radius: 10px;
         font-size: 1.7rem;
         text-align: end;
+        display: flex;
+        align-items: center;
+    }
+    &__headerIcon {
+        height: 2rem;
+        padding-right: 1rem;
     }
     &__bodyContainer {
         background-color: $Teal;

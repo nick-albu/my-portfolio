@@ -33,7 +33,7 @@
     &__headerMain {
         background-color: $Teal;
         height: 100%;
-        width: 20.5rem;
+        width: 22rem;
     }
     &__header {
         margin: 0;
@@ -43,8 +43,14 @@
         height: 100%;
         flex-grow: 1;
         background-color: $Egg;
-        font-size: 1.7rem;
+        font-size: 1.55rem;
         border-top-right-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+    &__headerIcon {
+        height: 2rem;
+        padding-left: 1rem;
     }
     &__list {
         display: flex;
