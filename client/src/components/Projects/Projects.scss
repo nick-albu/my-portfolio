@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 .projects {
     
@@ -49,6 +50,9 @@
         align-items: center;
         background-color: $Teal;
         padding: 1rem;
+        @include tabletBreakpoint {
+            padding: 4rem 2rem;
+        }
     }
     &__itemContainer {
         margin: 1rem;
