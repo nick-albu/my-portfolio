@@ -55,7 +55,7 @@
     &__list {
         display: flex;
         margin: 0;
-        padding: 3rem 1rem;
+        padding: 6rem 1rem;
         list-style: none;
         width: 17rem;
         flex-wrap: wrap;
@@ -67,6 +67,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 0 1rem 0;
         padding: 0;
         color: Black;
         font-size: 1.1rem;
