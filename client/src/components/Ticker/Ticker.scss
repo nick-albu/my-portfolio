@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 $duration: 30s;
 
@@ -43,6 +44,10 @@ $duration: 30s;
     animation-name: ticker;
     -webkit-animation-duration: $duration;
     animation-duration: $duration;
+    @include tabletBreakpoint {
+        height: 4rem;
+        line-height: 4rem;
+    }
     &__section {
         width: 100%;
         overflow: hidden;
@@ -51,7 +56,10 @@ $duration: 30s;
         display: inline-block;
         padding: 0 2rem;
         font-size: 1rem;
-        color: White;   
+        color: White;
+        @include tabletBreakpoint {
+            font-size: 1.8rem;
+        }   
         }
     &__wrap {
         bottom: 0;
@@ -61,5 +69,8 @@ $duration: 30s;
         background-color: $Pink; 
         padding-left: 100%;
         box-sizing: content-box;
+        @include tabletBreakpoint {
+            height: 4rem;
+        }
     }
 }
