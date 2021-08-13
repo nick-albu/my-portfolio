@@ -35,6 +35,9 @@
         background-color: $Teal;
         height: 100%;
         width: 22rem;
+        @include tabletBreakpoint {
+            width: 31rem;
+        }
     }
     &__header {
         margin: 0;
@@ -48,6 +51,11 @@
         border-top-right-radius: 10px;
         display: flex;
         align-items: center;
+        @include tabletBreakpoint {
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            height: 5rem;
+        }
     }
     &__headerIcon {
         height: 2rem;

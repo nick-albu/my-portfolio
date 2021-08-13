@@ -45,8 +45,8 @@ $duration: 30s;
     -webkit-animation-duration: $duration;
     animation-duration: $duration;
     @include tabletBreakpoint {
-        height: 4rem;
-        line-height: 4rem;
+        height: 3rem;
+        line-height: 3rem;
     }
     &__section {
         width: 100%;
@@ -58,7 +58,7 @@ $duration: 30s;
         font-size: 1rem;
         color: White;
         @include tabletBreakpoint {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
         }   
         }
     &__wrap {
@@ -70,7 +70,7 @@ $duration: 30s;
         padding-left: 100%;
         box-sizing: content-box;
         @include tabletBreakpoint {
-            height: 4rem;
+            height: 3rem;
         }
     }
 }
