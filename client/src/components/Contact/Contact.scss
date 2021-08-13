@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 .contact {
     &__headerContainer {
@@ -23,6 +24,9 @@
         height: 100%;
         width: 18rem;
         background-color: $Egg;
+        @include tabletBreakpoint {
+            width: 20rem;
+        }
     }
     &__header {
         margin: 0;
@@ -35,6 +39,11 @@
         text-align: end;
         display: flex;
         align-items: center;
+        @include tabletBreakpoint {
+            font-size: 2rem;
+            padding: 1rem 3rem;
+            justify-content: flex-end;
+        }
     }
     &__headerIcon {
         height: 2rem;
@@ -43,11 +52,20 @@
     &__bodyContainer {
         background-color: $Teal;
         padding: 2rem 1rem;
+        @include tabletBreakpoint {
+            padding: 4rem 2rem;
+        }
     }
     &__bodyParagraph {
         color: $Egg;
         font-size: 1.35rem;
         line-height: 1.5;
+        @include tabletBreakpoint {
+            font-size: 1.75rem;
+            margin: 0;
+            padding: 1rem;
+            line-height: 1.7;
+        }
     }
     &__icon {
         width: 2rem;
