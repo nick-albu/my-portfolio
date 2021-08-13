@@ -65,9 +65,8 @@ $duration: 30s;
         }
         @include desktopBreakpoint {
             height: 5vh;
-            font-size: 1.2rem;
-            display: flex;
-            align-items: center;
+            font-size: 1.1rem;
+            line-height: 0;
         }   
         }
     &__wrap {
