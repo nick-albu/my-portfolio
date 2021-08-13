@@ -12,13 +12,19 @@ class Projects extends Component {
         return (
             <section className='projects'>
                 <div className='projects__headerContainer'>
+                    <div className='projects__headerTabContainer'>
                         <div className='projects__headerBackLeft'>
                             <div className='projects__headerFrontLeft'>
                             </div>
                         </div>
-                        <div className='projects__headerBackRight'>
+                        <div className='projects__headerBackMain'>
                             <h1 className='projects__header'><img className='projects__headerIcon' src={ProjectsIcon}/>My Projects</h1>
                         </div>
+                        <div className='projects__headerBackRight'>
+                            <div className='projects__headerFrontRight'>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='projects__bodyContainer'>
                     <div className='projects__itemContainer'>

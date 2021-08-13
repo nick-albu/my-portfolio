@@ -8,11 +8,17 @@ class About extends Component {
         return (
             <section className='about'>
                 <div className='about__headerContainer'>
-                    <div className='about__headerBackLeft'>
-                        <h1 className='about__header'>About Me<img className='about__headerIcon' src={AboutIcon}/></h1>
-                    </div>
-                    <div className='about__headerBackRight'>
-                        <div className='about__headerFrontRight'>
+                    <div className='about__headerTabContainer'>
+                        <div className='about__headerBackLeft'>
+                            <div className='about__headerFrontLeft'>
+                            </div>
+                        </div>
+                        <div className='about__headerBackMain'>
+                            <h1 className='about__header'>About Me<img className='about__headerIcon' src={AboutIcon}/></h1>
+                        </div>
+                        <div className='about__headerBackRight'>
+                            <div className='about__headerFrontRight'>
+                            </div>
                         </div>
                     </div>
                 </div>
