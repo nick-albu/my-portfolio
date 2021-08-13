@@ -5,3 +5,9 @@
         @content;
     }
 }
+
+@mixin desktopBreakpoint {
+    @media (min-width: $desktopWidth) {
+        @content;
+    }
+}

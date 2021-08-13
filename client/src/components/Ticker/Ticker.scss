@@ -48,6 +48,9 @@ $duration: 30s;
         height: 3rem;
         line-height: 3rem;
     }
+    @include desktopBreakpoint {
+        height: 5vh;
+    }
     &__section {
         width: 100%;
         overflow: hidden;
@@ -59,6 +62,12 @@ $duration: 30s;
         color: White;
         @include tabletBreakpoint {
             font-size: 1.4rem;
+        }
+        @include desktopBreakpoint {
+            height: 5vh;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
         }   
         }
     &__wrap {
@@ -71,6 +80,9 @@ $duration: 30s;
         box-sizing: content-box;
         @include tabletBreakpoint {
             height: 3rem;
+        }
+        @include desktopBreakpoint {
+            height: 5vh;
         }
     }
 }

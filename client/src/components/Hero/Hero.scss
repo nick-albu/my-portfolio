@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 .hero {
     display: flex;
@@ -7,9 +8,16 @@
     width: 100%;
     background-color: $Egg;
     padding: 1rem 0;
+    @include desktopBreakpoint {
+        height: 85vh;
+    }
     &__image {
         height: 60vh;
         width: 100%;
         object-fit: cover;
+        @include desktopBreakpoint {
+            height: 80vh;
+            object-fit: fill;
+        }
     }
 }
