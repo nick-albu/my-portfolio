@@ -11,13 +11,19 @@ class Contact extends Component {
         return (
             <section className='contact'>
                 <div className='contact__headerContainer'>
+                    <div className='contact__headerTabContainer'>
                         <div className='contact__headerBackLeft'>
                             <div className='contact__headerFrontLeft'>
                         </div>
                         </div>
-                        <div className='contact__headerBackRight'>
+                        <div className='contact__headerMain'>
                             <h1 className='contact__header'><img className='contact__headerIcon' src={ContactIcon}/>Contact Me</h1>
                         </div>
+                        <div className='contact__headerBackRight'>
+                            <div className='contact__headerFrontRight'>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='contact__bodyContainer'>
                     <p className='contact__bodyParagraph'>Right now I'm spending my time learning new languages, stretching my

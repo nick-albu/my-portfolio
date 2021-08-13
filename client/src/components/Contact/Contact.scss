@@ -4,7 +4,13 @@
 .contact {
     &__headerContainer {
         display: flex;
-        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $Egg;
+    }
+    &__headerTabContainer {
+        display: flex;
+        width: 60rem;
         height: 4rem;
         justify-content: flex-end;
     }
@@ -20,7 +26,21 @@
         background-color: $Egg;
         border-bottom-right-radius: 10px;
     }
-    &__headerBackRight{
+    &__headerBackRight {
+        width: 1rem;
+        background-color: $Teal;
+        border-top-right-radius: 10px;
+    }
+    &__headerFrontRight {
+        width: 100%;
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        background-color: $Teal;
+        @include tabletBreakpoint {
+            background-color: $Egg;
+        }
+    }
+    &__headerMain{
         height: 100%;
         width: 18rem;
         background-color: $Egg;
@@ -43,6 +63,7 @@
             font-size: 2rem;
             padding: 1rem 3rem;
             justify-content: flex-end;
+            border-top-right-radius: 10px;
         }
     }
     &__headerIcon {

@@ -9,23 +9,36 @@
     &__headerContainer {
         width: 100%;
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $Teal;
     }
-    &__headerLeftBack {
+    &__headerTabContainer {
+        width: 60rem;
+        height: 4rem;
+        display: flex;
+    }
+    &__headerBackLeft {
         width: 1rem;
+        height: 100%;
         background-color: $Egg;
+        border-top-left-radius: 10px;
     }
-    &__headerLeftFront {
+    &__headerFrontLeft {
         width: 100%;
         height: 100%;
-        background-color: $Teal;
+        background-color: $Egg;
         border-bottom-right-radius: 10px;
+        @include tabletBreakpoint {
+            background-color: $Teal;
+        }
     }
-    &__headerRightBack {
+    &__headerBackRight {
         width: 1rem;
         flex-grow: 1;
         background-color: $Egg;
     }
-    &__headerRightFront {
+    &__headerFrontRight {
         width: 100%;
         height: 100%;
         background-color: $Teal;
@@ -54,7 +67,7 @@
         @include tabletBreakpoint {
             font-size: 2rem;
             padding: 1rem 3rem;
-            height: 5rem;
+            border-top-left-radius: 10px;
         }
     }
     &__headerIcon {

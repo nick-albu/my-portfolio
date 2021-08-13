@@ -13,11 +13,17 @@ class TechStack extends Component {
         return (
             <section className='techStack'>
                 <div className='techStack__headerContainer'>
-                    <div className='techStack__headerMain'>
-                        <h1 className='techStack__header'>Language Proficiencies<img className='techStack__headerIcon' src={TechStackIcon}/></h1>
-                    </div>
-                    <div className='techStack__headerRightBack'>
-                        <div className='techStack__headerRightFront'>
+                    <div className='techStack__headerTabContainer'>
+                        <div className='techStack__headerBackLeft'>
+                            <div className='techStack__headerFrontLeft'>
+                            </div>
+                        </div>
+                        <div className='techStack__headerMain'>
+                            <h1 className='techStack__header'>Language Proficiencies<img className='techStack__headerIcon' src={TechStackIcon}/></h1>
+                        </div>
+                        <div className='techStack__headerBackRight'>
+                            <div className='techStack__headerFrontRight'>
+                            </div>
                         </div>
                     </div>
                 </div>
