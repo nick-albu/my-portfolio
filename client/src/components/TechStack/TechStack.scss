@@ -1,4 +1,5 @@
 @use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
 
 .techStack {
     background-color: $Egg;
@@ -60,6 +61,12 @@
         width: 17rem;
         flex-wrap: wrap;
         justify-content: center;
+        @include tabletBreakpoint {
+            padding: 5rem 1rem;
+            width: 22rem;
+            height: 40rem;
+            align-items: center;
+        }
     }
     &__item {
         height: 5rem;
@@ -75,8 +82,14 @@
     }
     &__iconLarge {
         height: 2rem;
+        @include tabletBreakpoint {
+            height: 3rem;
+        }
     }
     &__icon {
         height: 4rem;
+        @include tabletBreakpoint {
+            height: 6rem;
+        }
     }
 }

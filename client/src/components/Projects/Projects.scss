@@ -25,6 +25,9 @@
         height: 100%;
         width: 20rem;
         background-color: $Egg;
+        @include tabletBreakpoint {
+            width: 21.5rem;
+        }
     }
     &__header {
         margin: 0;
@@ -37,6 +40,11 @@
         text-align: end;
         display: flex;
         align-items: center;
+        justify-content: flex-end;
+        @include tabletBreakpoint {
+            font-size: 2rem;
+            padding: 1rem 3rem;
+        }
     }
     &__headerIcon {
         height: 2.5rem;
@@ -51,7 +59,7 @@
         background-color: $Teal;
         padding: 1rem;
         @include tabletBreakpoint {
-            padding: 4rem 2rem;
+            padding: 5rem 2rem;
         }
     }
     &__itemContainer {
@@ -63,12 +71,19 @@
         flex-direction: column;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.404);
+        @include tabletBreakpoint {
+            padding: 0 2rem 2rem 2rem;
+            
+        }
     }
     &__itemHeader {
         font-size: 1.35rem;
         color: $Egg;
         padding: 0 1rem;
         width: 100%;
+        @include tabletBreakpoint {
+            font-size: 1.75rem;
+        }
     }
     &__itemBody {
         text-align: start;
@@ -77,6 +92,9 @@
         font-size: 1rem;
         padding: 1rem;
         margin: 0;
+        @include tabletBreakpoint {
+            font-size: 1.7rem;
+        }
     }
     &__itemLink {
         text-decoration: none;
@@ -86,6 +104,9 @@
         padding-left: 1rem;
         align-items: center;
         color: $Yellow;
+        @include tabletBreakpoint {
+            font-size: 1.7rem;
+        }
     }
     &__itemLinkIcon {
         height: 1.2rem;
@@ -102,8 +123,8 @@
         margin: 0.5rem;
         object-fit: scale-down;
         border-radius: 10px;
-        &:hover {
-            
+        @include tabletBreakpoint {
+            width: 20%;
         }
     }
 }
