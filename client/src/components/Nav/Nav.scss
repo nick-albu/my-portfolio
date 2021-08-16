@@ -31,6 +31,9 @@
         font-size: 1.4rem;
         padding: 0 1rem;
         color: $Yellow;
+        @include tabletBreakpoint {
+            font-size: 1.7rem;
+        }
         &--alternate {
             color: $LightGreen;
         }

@@ -18,6 +18,9 @@
         width: 100%;
         height: 4rem;
         display: flex;
+        @include tabletBreakpoint {
+            width: 60rem;
+        }
     }
     &__headerBackLeft {
         width: 1rem;
