@@ -15,7 +15,7 @@
         display: flex;
     }
     &__headerBackMain {
-        width: 12rem;
+        width: 10.5rem;
         background-color: $Teal;
         @include tabletBreakpoint {
             width: 18rem;
@@ -49,10 +49,10 @@
     &__header {
         width: 100%;
         margin: 0;
-        padding: 1rem;
+        padding: 1rem 1rem 1rem 0;
         color: $Teal;
         background-color: $Egg;
-        font-size: 1.55rem;
+        font-size: 1.2rem;
         border-top-right-radius: 10px;
         display: flex;
         align-items: center;
@@ -82,10 +82,10 @@
     }
     &__body {
         color: $Teal;
-        font-size: 1.35rem;
+        font-size: 1.05rem;
         padding: 1rem;
         margin: 0;
-        line-height: 1.5;
+        line-height: 1.7;
         @include tabletBreakpoint {
             font-size: 1.75rem;
             line-height: 1.7;

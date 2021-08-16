@@ -2,6 +2,7 @@
 @use '../../partials/mixins' as *;
 
 .contact {
+    width: 100%;
     &__headerContainer {
         display: flex;
         flex-direction: row;
@@ -10,7 +11,7 @@
     }
     &__headerTabContainer {
         display: flex;
-        width: 60rem;
+        width: 100%;
         height: 4rem;
         justify-content: flex-end;
     }
@@ -42,7 +43,7 @@
     }
     &__headerMain{
         height: 100%;
-        width: 18rem;
+        width: 15rem;
         background-color: $Egg;
         @include tabletBreakpoint {
             width: 20rem;
@@ -55,9 +56,10 @@
         color: $Egg;
         background-color: $Teal;
         border-top-left-radius: 10px;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         text-align: end;
         display: flex;
+        justify-content: flex-end;
         align-items: center;
         @include tabletBreakpoint {
             font-size: 2rem;
@@ -72,7 +74,7 @@
     }
     &__bodyContainer {
         background-color: $Teal;
-        padding: 2rem 1rem;
+        padding: 1rem 1rem;
         @include tabletBreakpoint {
             padding: 4rem 2rem;
         }
@@ -83,8 +85,8 @@
     }
     &__bodyParagraph {
         color: $Egg;
-        font-size: 1.35rem;
-        line-height: 1.5;
+        font-size: 1.05rem;
+        line-height: 1.7;
         @include tabletBreakpoint {
             font-size: 1.75rem;
             margin: 0;
