@@ -62,6 +62,7 @@ $duration: 30s;
         animation-name: ticker;
         -webkit-animation-duration: $duration;
         animation-duration: $duration;
+        overflow: hidden;
         @include tabletBreakpoint {
             height: 3rem;
             line-height: 3rem;
@@ -74,6 +75,7 @@ $duration: 30s;
         display: inline-block;
         padding: 0 2rem;
         font-size: 1rem;
+        overflow: hidden;
         margin: 0;
         color: White;
         @include tabletBreakpoint {
@@ -81,7 +83,7 @@ $duration: 30s;
         }
         @include desktopBreakpoint {
             height: 100%;
-            font-size: 2rem;
+            font-size: 1.6rem;
             text-align: center;
             display: inline-block;
             vertical-align: middle;

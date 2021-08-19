@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bc6385a.chunk.css",
-    "main.js": "/static/js/main.262ae3c4.chunk.js",
-    "main.js.map": "/static/js/main.262ae3c4.chunk.js.map",
+    "main.css": "/static/css/main.a923dc24.chunk.css",
+    "main.js": "/static/js/main.4fefb2d6.chunk.js",
+    "main.js.map": "/static/js/main.4fefb2d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5dfefed0.js",
     "runtime-main.js.map": "/static/js/runtime-main.5dfefed0.js.map",
     "static/js/2.0bcaee07.chunk.js": "/static/js/2.0bcaee07.chunk.js",
     "static/js/2.0bcaee07.chunk.js.map": "/static/js/2.0bcaee07.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0bc6385a.chunk.css.map": "/static/css/main.0bc6385a.chunk.css.map",
+    "static/css/main.a923dc24.chunk.css.map": "/static/css/main.a923dc24.chunk.css.map",
     "static/js/2.0bcaee07.chunk.js.LICENSE.txt": "/static/js/2.0bcaee07.chunk.js.LICENSE.txt",
     "static/media/AboutMe.f7b3c005.svg": "/static/media/AboutMe.f7b3c005.svg",
     "static/media/Contact.7e2551ff.svg": "/static/media/Contact.7e2551ff.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.5dfefed0.js",
     "static/js/2.0bcaee07.chunk.js",
-    "static/css/main.0bc6385a.chunk.css",
-    "static/js/main.262ae3c4.chunk.js"
+    "static/css/main.a923dc24.chunk.css",
+    "static/js/main.4fefb2d6.chunk.js"
   ]
 }

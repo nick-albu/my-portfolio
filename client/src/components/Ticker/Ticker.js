@@ -5,7 +5,7 @@ class Ticker extends Component {
 
     render () {
         return (
-            <section className='ticker__section'>
+            <section className='ticker'>
                 <div class="ticker__wrap">
                     <div class="ticker__itemContainer">
                         <div class="ticker__item"><p className='ticker__itemText'>🚨 Actively Looking For Work</p></div>
