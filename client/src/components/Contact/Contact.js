@@ -2,7 +2,7 @@ import './Contact.scss';
 import { Component } from 'react';
 import Email from '../../assets/EmailIcon.png'
 import GitHub from '../../assets/GitHubIcon.png'
-import LinkedIn from '../../assets/LinkedInIcon.png'
+import LinkedIn from '../../assets/LinkedInIcon.svg'
 import ContactIcon from '../../assets/SectionIcons/Contact.svg'
 
 class Contact extends Component {
@@ -17,7 +17,7 @@ class Contact extends Component {
                         </div>
                         </div>
                         <div className='contact__headerMain'>
-                            <h1 className='contact__header'><img className='contact__headerIcon' src={ContactIcon}/>Contact Me</h1>
+                            <h1 className='contact__header'><img className='contact__headerIcon' src={ContactIcon} alt='contact-header-icon'/>Contact Me</h1>
                         </div>
                         <div className='contact__headerBackRight'>
                             <div className='contact__headerFrontRight'>

@@ -21,6 +21,7 @@
         height: 5rem;
         @include desktopBreakpoint {
             height: 10vh;
+            width: 10vh;
         }
     }
     &__logo {

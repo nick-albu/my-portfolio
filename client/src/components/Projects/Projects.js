@@ -18,7 +18,7 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className='projects__headerBackMain'>
-                            <h1 className='projects__header'><img className='projects__headerIcon' src={ProjectsIcon}/>My Projects</h1>
+                            <h1 className='projects__header'><img className='projects__headerIcon' src={ProjectsIcon} alt='projects-header-icon'/>My Projects</h1>
                         </div>
                         <div className='projects__headerBackRight'>
                             <div className='projects__headerFrontRight'>

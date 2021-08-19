@@ -116,6 +116,10 @@
         @include tabletBreakpoint {
             height: 5rem;
             width: 5rem;
+            margin: 0 5rem;
+        }
+        @include desktopBreakpoint {
+            margin: 0 7rem;
         }
     }
     &__footer {
