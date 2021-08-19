@@ -19,7 +19,7 @@ class TechStack extends Component {
                             </div>
                         </div>
                         <div className='techStack__headerMain'>
-                            <h1 className='techStack__header'>Language Proficiencies<img className='techStack__headerIcon' src={TechStackIcon}/></h1>
+                            <h1 className='techStack__header'>Language Proficiencies<img className='techStack__headerIcon' src={TechStackIcon} alt='techstack-header-icon'/></h1>
                         </div>
                         <div className='techStack__headerBackRight'>
                             <div className='techStack__headerFrontRight'>

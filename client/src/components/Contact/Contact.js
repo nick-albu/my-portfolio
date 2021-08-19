@@ -17,7 +17,7 @@ class Contact extends Component {
                         </div>
                         </div>
                         <div className='contact__headerMain'>
-                            <h1 className='contact__header'><img className='contact__headerIcon' src={ContactIcon}/>Contact Me</h1>
+                            <h1 className='contact__header'><img className='contact__headerIcon' src={ContactIcon} alt='contact-header-icon'/>Contact Me</h1>
                         </div>
                         <div className='contact__headerBackRight'>
                             <div className='contact__headerFrontRight'>

@@ -14,7 +14,7 @@ class About extends Component {
                             </div>
                         </div>
                         <div className='about__headerBackMain'>
-                            <h1 className='about__header'>About Me<img className='about__headerIcon' src={AboutIcon}/></h1>
+                            <h1 className='about__header'>About Me<img className='about__headerIcon' src={AboutIcon} alt='about-header-icon'/></h1>
                         </div>
                         <div className='about__headerBackRight'>
                             <div className='about__headerFrontRight'>
