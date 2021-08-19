@@ -2,7 +2,7 @@ import './Contact.scss';
 import { Component } from 'react';
 import Email from '../../assets/EmailIcon.png'
 import GitHub from '../../assets/GitHubIcon.png'
-import LinkedIn from '../../assets/LinkedInIcon.png'
+import LinkedIn from '../../assets/LinkedInIcon.svg'
 import ContactIcon from '../../assets/SectionIcons/Contact.svg'
 
 class Contact extends Component {
