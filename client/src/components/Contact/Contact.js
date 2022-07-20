@@ -26,8 +26,7 @@ class Contact extends Component {
                     </div>
                 </div>
                 <div className='contact__bodyContainer'>
-                    <p className='contact__bodyParagraph'>Right now I'm spending my time learning new languages, stretching my
-                        development wings and looking for work.
+                    <p className='contact__bodyParagraph'>Right now I'm between positions and looking for more work while I work on some personal projects.
                         Please reach out to me for anything from chatting about a project or a 
                         new language, to job offers or opportunities. 
                     </p>
