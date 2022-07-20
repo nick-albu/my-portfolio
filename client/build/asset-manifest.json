@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a923dc24.chunk.css",
-    "main.js": "/static/js/main.4fefb2d6.chunk.js",
-    "main.js.map": "/static/js/main.4fefb2d6.chunk.js.map",
+    "main.css": "/static/css/main.9ccffe9c.chunk.css",
+    "main.js": "/static/js/main.cb435c79.chunk.js",
+    "main.js.map": "/static/js/main.cb435c79.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5dfefed0.js",
     "runtime-main.js.map": "/static/js/runtime-main.5dfefed0.js.map",
     "static/js/2.0bcaee07.chunk.js": "/static/js/2.0bcaee07.chunk.js",
     "static/js/2.0bcaee07.chunk.js.map": "/static/js/2.0bcaee07.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a923dc24.chunk.css.map": "/static/css/main.a923dc24.chunk.css.map",
+    "static/css/main.9ccffe9c.chunk.css.map": "/static/css/main.9ccffe9c.chunk.css.map",
     "static/js/2.0bcaee07.chunk.js.LICENSE.txt": "/static/js/2.0bcaee07.chunk.js.LICENSE.txt",
-    "static/media/AboutMe.f7b3c005.svg": "/static/media/AboutMe.f7b3c005.svg",
-    "static/media/Contact.7e2551ff.svg": "/static/media/Contact.7e2551ff.svg",
-    "static/media/GeminiCreatePage.1bfec1dd.PNG": "/static/media/GeminiCreatePage.1bfec1dd.PNG",
-    "static/media/GeminiLandingPage.b21cefd7.PNG": "/static/media/GeminiLandingPage.b21cefd7.PNG",
-    "static/media/GeminiPreviousWorkouts.59a03d55.PNG": "/static/media/GeminiPreviousWorkouts.59a03d55.PNG",
-    "static/media/GeminiWorkoutPage.dcafe274.PNG": "/static/media/GeminiWorkoutPage.dcafe274.PNG",
-    "static/media/LightMode.7a32556d.svg": "/static/media/LightMode.7a32556d.svg",
+    "static/media/AboutMe.61c08b33.svg": "/static/media/AboutMe.61c08b33.svg",
+    "static/media/Contact.da033895.svg": "/static/media/Contact.da033895.svg",
+    "static/media/LightMode.d71e5caf.svg": "/static/media/LightMode.d71e5caf.svg",
     "static/media/LinkedInIcon.0ccc849a.svg": "/static/media/LinkedInIcon.0ccc849a.svg",
-    "static/media/Logo.043a9476.svg": "/static/media/Logo.043a9476.svg",
-    "static/media/Projects.62b8a2b9.svg": "/static/media/Projects.62b8a2b9.svg",
-    "static/media/TechStack.983940ae.svg": "/static/media/TechStack.983940ae.svg",
+    "static/media/Logo.5df5535b.svg": "/static/media/Logo.5df5535b.svg",
+    "static/media/Projects.a1e84272.svg": "/static/media/Projects.a1e84272.svg",
+    "static/media/TechStack.6978826c.svg": "/static/media/TechStack.6978826c.svg",
     "static/media/express.0e7aa789.svg": "/static/media/express.0e7aa789.svg",
     "static/media/html5.9aa2e18f.svg": "/static/media/html5.9aa2e18f.svg",
     "static/media/javascript.218515fe.svg": "/static/media/javascript.218515fe.svg",
@@ -31,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.5dfefed0.js",
     "static/js/2.0bcaee07.chunk.js",
-    "static/css/main.a923dc24.chunk.css",
-    "static/js/main.4fefb2d6.chunk.js"
+    "static/css/main.9ccffe9c.chunk.css",
+    "static/js/main.cb435c79.chunk.js"
   ]
 }
