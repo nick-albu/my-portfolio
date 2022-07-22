@@ -33,7 +33,7 @@ class Projects extends Component {
                     </div>
                     <div className='projects__itemContainer'>
                         <h2 className='projects__itemHeader'>Date Knight</h2>   
-                        <p className='projects__itemBody'>With COVID restrictions letting up, DateKnightmakes planning quality time out easy. </p>
+                        <p className='projects__itemBody'>With COVID restrictions letting up, DateKnight makes planning quality time out easy. </p>
                         <p className='projects__itemBody'>Built with Javascript, React.js and Scss</p>
                         <a target='_blank' href='https://www.dateknight.fun' className='projects__itemLink'>
                             www.dateknight.fun</a>
